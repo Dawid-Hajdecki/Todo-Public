@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: lightcoral;
+}
+.app{
+    background: lightsalmon;
+    padding: 50px;
+    border-radius: 10px;
+    max-height: 500px;
+}
+form{
+    text-align: center;
+}
+.todoList{
+    max-height: 350px;
+    overflow-y: auto;
+}
+.todoAdd{
+    background: lavender;
+    padding: 5px 50px;
+}
+input[type=text]{
+    border-radius: 5px;
+    padding: 10px 5px;
+    text-align: center;
+    margin: 10px;
+    border:none;
+}
+.todo{
+    min-width: 300px;
+    display: inherit;
+    justify-content: center;
+    padding: 7px;
+    margin: 5px;
+    background: rgb(63, 161, 253);
+}
+.todoCompleted{
+    transform: scale(0.95);
+    background: rgb(187, 42, 6);
+    text-decoration: line-through;
+}
+.todo div, .todo button{
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+}
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.cursorPointer{
+    cursor: pointer;
+}
